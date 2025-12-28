@@ -1,0 +1,34 @@
+{
+  "name": "@anthropic/grapher",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "zos": {
+    "id": "ai.hanzo.grapher",
+    "name": "Grapher",
+    "icon": "📈",
+    "category": "system",
+    "description": "2D and 3D equation graphing calculator",
+    "permissions": [],
+    "window": {
+      "defaultSize": { "width": 600, "height": 500 },
+      "resizable": true
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  }
+}
