@@ -1,5 +1,5 @@
 {
-  "name": "@anthropic/grapher",
+  "name": "@zos-apps/grapher",
   "version": "1.0.0",
   "type": "module",
   "main": "./dist/index.js",
@@ -13,7 +13,10 @@
     "description": "2D and 3D equation graphing calculator",
     "permissions": [],
     "window": {
-      "defaultSize": { "width": 600, "height": 500 },
+      "defaultSize": {
+        "width": 600,
+        "height": 500
+      },
       "resizable": true
     }
   },
@@ -30,5 +33,23 @@
     "@types/react-dom": "^18.3.0",
     "tsup": "^8.3.5",
     "typescript": "^5.7.2"
-  }
+  },
+  "description": "2D and 3D equation graphing calculator",
+  "homepage": "https://zos-apps.github.io/grapher",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zos-apps/grapher.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zos-apps/grapher/issues"
+  },
+  "author": "Hanzo AI",
+  "license": "MIT",
+  "keywords": [
+    "zos",
+    "app",
+    "grapher",
+    "macos",
+    "desktop"
+  ]
 }
