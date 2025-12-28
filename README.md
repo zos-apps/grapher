@@ -1,54 +1,74 @@
-# 📈 Grapher
+# Grapher
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/zos-apps/grapher/releases)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Docs](https://img.shields.io/badge/docs-online-purple.svg)](https://zos-apps.github.io/grapher)
+📈 Create 2D and 3D mathematical graphs and visualizations.
 
-> 2D and 3D equation graphing calculator
+[![CI](https://github.com/zos-apps/grapher/actions/workflows/ci.yml/badge.svg)](https://github.com/zos-apps/grapher/actions/workflows/ci.yml)
+[![npm version](https://img.shields.io/npm/v/@zos-apps/grapher.svg)](https://www.npmjs.com/package/@zos-apps/grapher)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**[Documentation](https://zos-apps.github.io/grapher)** • **[App Store](https://zos-apps.github.io/app-store)** • **[All Apps](https://github.com/zos-apps)**
+## About
 
-## Installation
-
-```bash
-npm install github:zos-apps/grapher
-```
-
-Or install via the [zOS App Store](https://zos-apps.github.io/app-store).
-
-## Usage
-
-```tsx
-import Grapher from '@zos-apps/grapher';
-
-function App() {
-  return <Grapher />;
-}
-```
+Create 2D and 3D mathematical graphs and visualizations.
 
 ## Features
 
-- Native zOS window integration
-- Dark mode support
+- 2D/3D plotting
+- Multiple functions
+- Animation
+- Export
 
-- Context menu actions
-- Menu bar integration
+## Installation
 
-## Category
+### From App Store
+Open the **App Store** in zOS and search for "Grapher".
 
-**System**
+### Via npm
+```bash
+npm install @zos-apps/grapher
+```
 
-## Permissions
+## Usage
 
-No special permissions required.
+- Enter equation
+- Adjust range
+- Use mouse to rotate 3D
 
-## Links
 
-- [Documentation](https://zos-apps.github.io/grapher)
-- [GitHub Repository](https://github.com/zos-apps/grapher)
-- [Report Issues](https://github.com/zos-apps/grapher/issues)
-- [All zOS Apps](https://github.com/zos-apps)
+
+## Development
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+## Documentation
+
+- [User Guide](https://zos-apps.github.io/grapher)
+- [API Reference](https://zos-apps.github.io/grapher/api)
+- [Changelog](https://github.com/zos-apps/grapher/releases)
+
+## Contributing
+
+Contributions are welcome! Please read our [Contributing Guide](https://github.com/zos-apps/grapher/blob/main/CONTRIBUTING.md) first.
 
 ## License
 
 MIT © [Hanzo AI](https://hanzo.ai)
+
+---
+
+<p align="center">
+  <a href="https://hanzo.ai">
+    <img src="https://hanzo.ai/logo.svg" alt="Hanzo AI" width="100">
+  </a>
+</p>
+<p align="center">
+  Built with ❤️ by <a href="https://hanzo.ai">Hanzo AI</a>
+</p>

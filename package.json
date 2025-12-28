@@ -18,7 +18,21 @@
         "height": 500
       },
       "resizable": true
-    }
+    },
+    "about": "Create 2D and 3D mathematical graphs and visualizations.",
+    "help": [
+      "Enter equation",
+      "Adjust range",
+      "Use mouse to rotate 3D"
+    ],
+    "docs": "https://zos-apps.github.io/grapher",
+    "site": "https://github.com/zos-apps/grapher",
+    "features": [
+      "2D/3D plotting",
+      "Multiple functions",
+      "Animation",
+      "Export"
+    ]
   },
   "scripts": {
     "build": "tsup",
@@ -51,5 +65,13 @@
     "grapher",
     "macos",
     "desktop"
-  ]
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zos-apps"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }
