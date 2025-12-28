@@ -32,7 +32,26 @@
       "Multiple functions",
       "Animation",
       "Export"
-    ]
+    ],
+    "screenshots": {
+      "hero": "screenshots/hero.png",
+      "images": [
+        "screenshots/1-main.png",
+        "screenshots/2-feature.png"
+      ]
+    },
+    "downloads": {
+      "web": "https://zos-apps.github.io/grapher"
+    },
+    "featured": false,
+    "tags": [
+      "system",
+      "utility",
+      "grapher"
+    ],
+    "releaseDate": "2024-12-28",
+    "support": "https://github.com/zos-apps/grapher/issues",
+    "changelog": "https://github.com/zos-apps/grapher/releases"
   },
   "scripts": {
     "build": "tsup",
