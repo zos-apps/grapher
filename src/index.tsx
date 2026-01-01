@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef, useCallback } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 
 interface GrapherProps {
   onClose: () => void;
@@ -13,14 +13,14 @@ interface Equation {
 
 const COLORS = ['#4285f4', '#ea4335', '#fbbc04', '#34a853', '#9c27b0', '#ff6d00'];
 
-const Grapher: React.FC<GrapherProps> = ({ onClose }) => {
+const Grapher: React.FC<GrapherProps> = ({ onClose: _onClose }) => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const [equations, setEquations] = useState<Equation[]>([
     { id: '1', expression: 'Math.sin(x)', color: COLORS[0], visible: true },
   ]);
   const [newEquation, setNewEquation] = useState('');
   const [scale, setScale] = useState(50);
-  const [offset, setOffset] = useState({ x: 0, y: 0 });
+  const [offset, _setOffset] = useState({ x: 0, y: 0 });
 
   const safeEval = useCallback((expr: string, x: number): number | null => {
     try {
